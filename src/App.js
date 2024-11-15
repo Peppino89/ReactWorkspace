@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Miocomponente from "./components/Miocomponente"; // puoi omettere .js
+import Persona from "./components/ExamplesOfHowComponentsCommunicate/Persona";
+import Padre from "./components/ExamplesOfHowComponentsCommunicate/Padre";
+//import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <Miocomponente>
+          <Persona nome="Giuseppe" cognome="Giordano" anni={34}/>
+        </Miocomponente>
+          <Padre/>
+      </div>
   );
 }
 
 export default App;
+
