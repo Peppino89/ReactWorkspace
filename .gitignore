@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Rimuovi la cartella ExampleOfComponentStateManagement dalla lista di ignorati
+!src/components/ExampleOfComponentStateManagement/
