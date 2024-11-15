@@ -18,8 +18,8 @@ const ExampleOfUseStatet = () => {
     <div>
       <h2>Gestione dello Stato in React</h2>
       <p>Contatore: {count}</p>
-      <button onClick={increment}>Incrementa</button>
-      <button onClick={decrement}>Decrementa</button>
+      <button onClick={increment}>incrementa</button>
+      <button onClick={decrement}>decrementa</button>
     </div>
   );
 };
